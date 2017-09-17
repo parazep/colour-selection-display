@@ -1,0 +1,52 @@
+*{
+  font-family: "Dosis", sans-serif;
+}
+
+#container{
+  display: flex;
+  flex-flow: row wrap;
+  width: 600px;
+  align-content: space-around;
+
+  border: 2px solid grey;
+}
+
+#display{
+  width: 80%;
+  height: 50px;
+  display: block;
+  background-color: lightgrey;
+  margin: 10px auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#result{
+  vertical-align: middle;
+}
+
+
+.box{
+  width: 130px;
+  height: 50px;
+  margin: 10px auto;
+
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+}
+
+#colourOne{
+  background-color: red;
+}
+
+#colourTwo{
+  background-color: yellow;
+}
+
+#colourThree{
+  background-color: green;
+}
+
+.selected{
+  border-color: black;
+}
